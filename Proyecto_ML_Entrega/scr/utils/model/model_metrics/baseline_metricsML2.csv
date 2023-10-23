@@ -1,0 +1,22 @@
+LogisticRegression();0.7536877688998156;0.0;0.0;0.0
+KNeighborsClassifier();0.7214197910264291;0.3728813559322034;0.19213973799126638;0.25360230547550433
+DecisionTreeClassifier();0.7897971727105101;0.5723967960566851;0.5795383655645664;0.5759454432734036
+RandomForestClassifier();0.8392747387830363;0.7043286867204696;0.5988771054273238;0.6473364801078895
+BaggingClassifier();0.822679778733866;0.6679132385938669;0.5570804741110418;0.6074829931972789
+AdaBoostClassifier();0.8481868469575906;0.7262693156732892;0.6157205240174672;0.6664415935178934
+GradientBoostingClassifier();0.8488014751075599;0.7360793287566743;0.6019962570180911;0.6623198352779683
+SVC();0.7536877688998156;0.0;0.0;0.0
+"XGBClassifier(base_score=None, booster=None, callbacks=None,
+              colsample_bylevel=None, colsample_bynode=None,
+              colsample_bytree=None, early_stopping_rounds=None,
+              enable_categorical=False, eval_metric=None, feature_types=None,
+              gamma=None, gpu_id=None, grow_policy=None, importance_type=None,
+              interaction_constraints=None, learning_rate=None, max_bin=None,
+              max_cat_threshold=None, max_cat_to_onehot=None,
+              max_delta_step=None, max_depth=None, max_leaves=None,
+              min_child_weight=None, missing=nan, monotone_constraints=None,
+              n_estimators=100, n_jobs=None, num_parallel_tree=None,
+              predictor=None, random_state=None, ...)";0.8469575906576521;0.7160142348754448;0.627573300062383;0.6688829787234043
+VotingClassifier(estimators=[('RFC', RandomForestClassifier())]);0.8389674247080516;0.7006507592190889;0.6044915782907049;0.6490288010716677
+LinearDiscriminantAnalysis();0.8426551936078672;0.7123991195891416;0.6057392389270119;0.6547538772757923
+<keras.engine.sequential.Sequential object at 0x000001A1CDEAEB00>;0.8216041794714198;0.6994584837545126;0.48346849656893326;0.5717447436370342
