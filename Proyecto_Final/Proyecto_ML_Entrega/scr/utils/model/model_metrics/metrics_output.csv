@@ -1,0 +1,23 @@
+Model,Accuracy,Precision,Recall,F1
+GradientBoostingClassifier(),0.8672403196066379,0.7958366693354684,0.6200873362445415,0.697054698457223
+"XGBClassifier(base_score=None, booster=None, callbacks=None,
+              colsample_bylevel=None, colsample_bynode=None,
+              colsample_bytree=None, early_stopping_rounds=None,
+              enable_categorical=False, eval_metric=None, feature_types=None,
+              gamma=None, gpu_id=None, grow_policy=None, importance_type=None,
+              interaction_constraints=None, learning_rate=None, max_bin=None,
+              max_cat_threshold=None, max_cat_to_onehot=None,
+              max_delta_step=None, max_depth=None, max_leaves=None,
+              min_child_weight=None, missing=nan, monotone_constraints=None,
+              n_estimators=100, n_jobs=None, num_parallel_tree=None,
+              predictor=None, random_state=None, ...)",0.8672403196066379,0.7788679245283019,0.6437928883343731,0.7049180327868853
+AdaBoostClassifier(),0.8626306084818685,0.7754467754467754,0.6225826575171554,0.6906574394463668
+"VotingClassifier(estimators=[('RFC', RandomForestClassifier())])",0.8563306699446834,0.7474074074074074,0.6294447910168434,0.6833728411784625
+RandomForestClassifier(),0.8558696988322065,0.748319641523525,0.6250779787897692,0.681169272603671
+BaggingClassifier(),0.8460356484326982,0.7285171102661597,0.5976294447910169,0.6566141192597669
+LinearDiscriminantAnalysis(),0.8408113091579594,0.7255369928400954,0.5689332501559575,0.6377622377622376
+DecisionTreeClassifier(),0.8106945298094653,0.6118143459915611,0.6331877729257642,0.6223175965665236
+<keras.engine.sequential.Sequential object at 0x0000021337D568F0>,0.797480024585126,0.8701298701298701,0.2089831565814098,0.3370221327967807
+SVC(),0.7957897971727105,0.9823943661971832,0.1740486587648159,0.2957074721780604
+LogisticRegression(),0.7953288260602336,0.7127158555729984,0.2832189644416719,0.4053571428571429
+KNeighborsClassifier(),0.7724339274738783,0.564755838641189,0.3318777292576419,0.4180746561886051
